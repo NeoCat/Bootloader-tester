@@ -1,0 +1,6 @@
+- asm code => disk image builder
+
+1. write asm code to src.s
+2. run ` ./build.sh `
+3. run ` qemu -hda output.img ` to execute the code
+
